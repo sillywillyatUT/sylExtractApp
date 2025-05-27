@@ -9,6 +9,8 @@ const HelpInfo = () => {
           className="h-6 w-6 text-blue-500 mr-3"
           fill="none"
           viewBox="0 0 24 24"
+          width="10em"
+          height="10em"
           stroke="currentColor"
         >
           <path

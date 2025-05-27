@@ -4,7 +4,8 @@ import FileUpload from './components/FileUpload';
 import ProcessingStatus from './components/ProcessingStatus';
 import Downloads from './components/Downloads';
 import HelpInfo from './components/HelpInfo';
-import ResultsDisplayContainer from './components/ResultsDisplayContainer'; // or wherever your results are aggregated
+import ResultsDisplayContainer from './components/ResultsDisplay';
+
 
 function App() {
   // Your state for file, loading, processing step, extracted events, etc.

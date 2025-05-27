@@ -12,6 +12,8 @@ const Downloads = ({ downloadCalendar, downloadJson }) => {
           className="h-5 w-5 mr-2"
           fill="none"
           viewBox="0 0 24 24"
+          width="10em"
+          height="10em"
           stroke="currentColor"
         >
           <path
@@ -21,8 +23,10 @@ const Downloads = ({ downloadCalendar, downloadJson }) => {
             d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
           />
         </svg>
+        <br></br>
         Download iCalendar (.ics)
       </button>
+      <br></br>
       <button
         onClick={downloadJson}
         className="flex-1 py-3 px-4 rounded-lg transition flex items-center justify-center bg-gray-700 hover:bg-gray-800 text-white font-medium"
