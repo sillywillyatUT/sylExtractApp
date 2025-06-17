@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-=======
 
->>>>>>> ff849897556c9ab5894dcabb783f539c5e2c9b94
-// File: src/components/ResultsDisplay/index.js
 import React from 'react';
 import ClassTimes from './ClassTimes';
 import Assignments from './Assignments';
