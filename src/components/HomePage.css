@@ -288,7 +288,7 @@
 .get-started-button {
   border-radius: 10px;
   background-color: rgba(255, 119, 81, 1);
-  padding: 12px 25px;
+  padding: 10px 22px;
   overflow: hidden;
   color: rgba(255, 255, 255, 1);
   font-weight: 400;
@@ -298,12 +298,12 @@
 }
 
 .get-started-button:hover {
-  opacity: 0.9;
+  opacity: 0.8;
 }
 
 @media (max-width: 991px) {
   .get-started-button {
-    padding: 12px 23px;
+    padding: 10px 22px;
   }
 }
 
@@ -316,7 +316,7 @@
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 1);
   display: flex;
-  padding: 14px 24px 14px 24px;
+  padding: 10px 22 px;
   align-items: stretch;
   gap: 4px;
   overflow: hidden;
@@ -512,7 +512,7 @@
 @keyframes fadeInDown {
   from {
     opacity: 0;
-    transform: translateY(-20px);
+    transform: translateY(-15px);
   }
   to {
     opacity: 1;
@@ -521,5 +521,9 @@
 }
 
 .hero-title {
-  animation: fadeInDown 0.7s ease-in backwards;
+  animation: fadeInDown 0.4s ease-in backwards;
+}
+
+.hero-subtitle {
+  animation: fadeInDown 0.4s ease-in backwards;
 }
