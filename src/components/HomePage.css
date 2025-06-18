@@ -288,7 +288,7 @@
 .get-started-button {
   border-radius: 10px;
   background-color: rgba(255, 119, 81, 1);
-  padding: 10px 22px;
+  padding: 12px 22px;
   overflow: hidden;
   color: rgba(255, 255, 255, 1);
   font-weight: 400;
@@ -303,7 +303,7 @@
 
 @media (max-width: 991px) {
   .get-started-button {
-    padding: 10px 22px;
+    padding: 12px 22px;
   }
 }
 
@@ -316,7 +316,7 @@
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 1);
   display: flex;
-  padding: 10px 22 px;
+  padding: 12px 22 px;
   align-items: stretch;
   gap: 4px;
   overflow: hidden;
