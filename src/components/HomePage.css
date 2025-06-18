@@ -286,9 +286,16 @@
 }
 
 .get-started-button {
+  font-family:
+    Instrument Sans,
+    -apple-system,
+    Roboto,
+    Helvetica,
+    sans-serif;
+  font-size: 14px;
   border-radius: 10px;
   background-color: rgba(255, 119, 81, 1);
-  padding: 12px 22px;
+  padding: 8px 22px;
   overflow: hidden;
   color: rgba(255, 255, 255, 1);
   font-weight: 400;
@@ -303,7 +310,7 @@
 
 @media (max-width: 991px) {
   .get-started-button {
-    padding: 12px 22px;
+    padding: 8px 22px;
   }
 }
 
@@ -313,18 +320,36 @@
 }
 
 .learn-more-button {
-  border-radius: 10px;
-  background-color: rgba(255, 255, 255, 1);
   display: flex;
-  padding: 12px 22 px;
-  align-items: stretch;
-  gap: 4px;
-  overflow: hidden;
-  color: rgba(0, 0, 0, 1);
-  font-weight: 600;
+  align-items: center;
+  justify-content: center;
+ 
+  padding: 8px 22px;
   border: 1px solid rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  gap: 0px;
+  font-family: Instrument Sans, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #000;
+  border-radius: 10px;
   cursor: pointer;
   transition: opacity 0.2s ease;
+}
+
+.learn-more-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+
+
+.get-started-button,
+.learn-more-button {
+  line-height: 0.3;
+  height: 42px;
 }
 
 .learn-more-button:hover {
@@ -527,3 +552,14 @@
 .hero-subtitle {
   animation: fadeInDown 0.4s ease-in backwards;
 }
+
+.IconChevronRight {
+  width: 24px;
+  height: 24px;
+  display: inline-flex;
+  padding: 15px 1px 13px 24px;
+  justify-content: flex-end;
+  align-items: flex-start;
+  gap: 4px;
+}
+
