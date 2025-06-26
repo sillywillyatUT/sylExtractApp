@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import HomePage from "./components/HomePage";
+import LoginPage from "./components/LoginPage";
+
 import Header from "./components/Header";
 import FileUpload from "./components/FileUpload";
 import ProcessingStatus from "./components/ProcessingStatus";
@@ -10,6 +12,7 @@ import ResultsDisplayContainer from "./components/ResultsDisplay";
 function App() {
   // Navigation state
   const [currentPage, setCurrentPage] = useState("home");
+
 
   // Your state for file, loading, processing step, extracted events, etc.
   const [file, setFile] = useState(null);
@@ -46,9 +49,27 @@ function App() {
     setCurrentPage("home");
   };
 
+
+  const navigateToLogin = () => {
+    setCurrentPage("login");
+  };
+
   if (currentPage === "home") {
-    return <HomePage onNavigateToApp={navigateToApp} />;
+    return (
+      <HomePage
+        onNavigateToApp={navigateToApp}
+        onNavigateToLogin={navigateToLogin} 
+      />
+    );
   }
+  if (currentPage === "login") {
+  return (
+    <LoginPage
+      onBack={() => setCurrentPage("home")} 
+    />
+  );
+  }
+
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 py-8 px-4">

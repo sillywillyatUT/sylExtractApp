@@ -432,7 +432,7 @@
     sans-serif;
   width: 100%;
   justify-content: start;
-  padding: 64px;
+  padding: 32px 64px 64px 64px;
   background-color: rgba(255, 255, 255, 1);
 }
 
@@ -456,7 +456,7 @@
   width: 100%;
   letter-spacing: -0.48px;
   line-height: 1.2;
-  margin: 0 0 24px 0;
+  margin: 20px;
 }
 
 @media (max-width: 991px) {

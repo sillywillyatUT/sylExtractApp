@@ -1,8 +1,6 @@
 import React from "react";
 import "./HomePage.css";
 import { ChevronRight } from "lucide-react";
-
-
 const HomePage = ({ onNavigateToApp }) => {
   return (
     <div className="homepage">
@@ -24,7 +22,13 @@ const HomePage = ({ onNavigateToApp }) => {
             <div className="nav-link">Contact</div>
           </div>
           <div className="auth-section">
-            <div className="login-button">Login</div>
+            <div
+              className="login-button"
+              onClick={onNavigateToLogin}
+              style={{ cursor: "pointer" }}
+            >
+              Login
+            </div>
             <div className="signup-button">Sign up</div>
           </div>
         </div>
@@ -87,6 +91,8 @@ const HomePage = ({ onNavigateToApp }) => {
       </div>
     </div>
   );
+
+
 };
 
 export default HomePage;
