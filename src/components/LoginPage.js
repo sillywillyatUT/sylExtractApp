@@ -1,11 +1,11 @@
 import React from "react";
 import "./HomePage.css";
 
-import { FormBox } from "compositions"
-import { TextLink } from "primitives"
-import { ButtonGroup } from "primitives"
-import { Button } from "primitives"
-import { InputField } from "primitives"
+import { FormBox } from './compositions';
+
+import { Button, ButtonGroup, InputField, TextLink } from './primitives';
+
+
 const HomePage = ({ onNavigateToApp }) => {
     return (
         <div className="loginpage">
@@ -68,3 +68,5 @@ const HomePage = ({ onNavigateToApp }) => {
         </div>
     );
 };
+
+export default LoginPage;

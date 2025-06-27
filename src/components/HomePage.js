@@ -1,7 +1,8 @@
 import React from "react";
 import "./HomePage.css";
 import { ChevronRight } from "lucide-react";
-const HomePage = ({ onNavigateToApp }) => {
+const HomePage = ({ onNavigateToApp, onNavigateToLogin }) => {
+
   return (
     <div className="homepage">
       <div className="homepage-header">
