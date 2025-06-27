@@ -1,0 +1,41 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "es6"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "baseUrl": "src",
+    "paths": {
+      "hooks": ["hooks"],
+      "hooks/*": ["hooks/*"],
+      "icons": ["components/icons"],
+      "icons/*": ["components/icons/*"],
+      "layout": ["components/layout"],
+      "layout/*": ["components/layout/*"],
+      "primitives": ["components/primitives"],
+      "primitives/*": ["components/primitives/*"],
+      "utils": ["utils"],
+      "utils/*": ["utils/*"],
+      "data": ["data"],
+      "data/*": ["data/*"]
+    }
+  },
+  "include": [
+    "src"
+  ]
+}
